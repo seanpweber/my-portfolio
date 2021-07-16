@@ -1,0 +1,23 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My professional portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanpweber/my-portfolio.git"
+  },
+  "keywords": [
+    "my",
+    "portfolio"
+  ],
+  "author": "Sean Weber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanpweber/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/seanpweber/my-portfolio#readme"
+}
