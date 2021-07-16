@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+@import 'bulma/css/bulma.css'
+
 /* Allows for smooth scrolling when links click */
 
 html {

@@ -1,4 +1,4 @@
-$(document).scroll(function() {
+export default function() {
 
     myID = document.getElementById("backToTop");
 
@@ -12,4 +12,4 @@ $(document).scroll(function() {
     };
 
     window.addEventListener("scroll", myScrollFunc);
-});
+};
