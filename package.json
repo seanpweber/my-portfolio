@@ -2,12 +2,14 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "My professional portfolio",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "start:dev": "nodemon start",
-    "heroku-postbuild": "webpack -p"
+    "start:dev": "nodemon start"
   },
   "repository": {
     "type": "git",
