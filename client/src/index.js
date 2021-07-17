@@ -1,4 +1,6 @@
-require('jquery');
-var scrollTop = require('./scripts/scroll.js');
+require("./Assets/style/style.css");
 
-$(document).scroll(scrollTop);
+// import { mdiGithub } from '@mdi/js';
+import scroll from './scripts/scroll.js';
+
+document.addEventListener('scroll', scroll);

@@ -1,6 +1,6 @@
-export default function() {
+export default function scroll() {
 
-    myID = document.getElementById("backToTop");
+    var myID = document.getElementById("backToTop");
 
     var myScrollFunc = function () {
         var y = window.scrollY;
