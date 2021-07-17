@@ -148,21 +148,48 @@
             <!-- Contact info -->
             <div class="box" id="contactMe">
                 <h3>Contact Me</h3>
-                <ul>
-                    <li>
-                        <a href="mailto: sean.weber95@gmail.com" target="_blank">Email</a>
-                        <a href="https://github.com/seanpweber" target="_blank">Github</a>
-                        <a href="https://www.linkedin.com/in/sean-weber-7965b9113/" target="_blank">LinkedIn</a>
-                    </li>
-                </ul>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="e.g. Johnny Appleseed">
+                    </div>
+                </div>
+                  
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="e.g. averycoolperson@email.com">
+                    </div>
+                </div>
+                  
+                <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="e.g. I would like to offer you a million dollars!">
+                    </div>
+                </div>
+                  
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder=""></textarea>
+                    </div>
+                </div>
+                  
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-info">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-info is-light">Cancel</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Button to return you to top of page anchor -->
-    <div id="backToTop" class="backToTop hide">
-        <a href="#top">↑ Back to top</a>
-    </div>
+        <a id="backToTop" class="button is-info hide" href="#top">↑ Back to top</a>
 
     <!-- Footer and credits -->
     <footer class="footer">

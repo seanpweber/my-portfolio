@@ -42,18 +42,14 @@ svg {
 } */
 
 /* Button to return you to top of page anchor */
-.backToTop {
-    background-color: black;
-    color: #d9dcd6;
+#backToTop {
     float: right;
     padding: 5px;
-    width: 85px;
     position: fixed;
     right: 0px;
     bottom: 38px;
     overflow: visible;
     text-align: center;
-    font-size: 10px;
     transition: all 0.75s;
     z-index: 1;
 }
