@@ -10,5 +10,5 @@ app.get('/',function(req, res) {//listens for when the client opens the site.
 });
 app.use('/client',express.static(__dirname + '/client'));//listens for when the client wants files.
 serv.listen(port, function() {
-    console.log('Our app is running on http://localhost:' + port);
+    console.log('Site is running on http://localhost:' + port);
 });

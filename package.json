@@ -4,7 +4,6 @@
   "description": "My professional portfolio",
   "main": "server.js",
   "scripts": {
-    "test": "npm test",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "nodemon start"
