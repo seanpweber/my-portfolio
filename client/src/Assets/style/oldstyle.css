@@ -22,7 +22,7 @@ body>a {
 
 /* Header box and title */
 
-header {
+nav {
     padding: 20px;
     width: 100%;
     justify-content: space-between;
@@ -85,7 +85,7 @@ p {
 .pagePhoto {
     padding-top: 50%;  
     margin-bottom: 25px;
-    background-image: url("./Images/pagePhoto.jpg");
+    background-image: url("../Images/pagePhoto.jpg");
     background-size: cover;
     background-position: center;
 }

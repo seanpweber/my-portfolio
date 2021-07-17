@@ -1,6 +1,6 @@
-$(document).scroll(function() {
+export default function scroll() {
 
-    myID = document.getElementById("backToTop");
+    var myID = document.getElementById("backToTop");
 
     var myScrollFunc = function () {
         var y = window.scrollY;
@@ -12,4 +12,4 @@ $(document).scroll(function() {
     };
 
     window.addEventListener("scroll", myScrollFunc);
-});
+};
