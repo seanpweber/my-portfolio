@@ -7,9 +7,9 @@ export default function scroll() {
     var myScrollFunc = function () {
         var y = window.scrollY;
         if (y >= 100) {
-            myID.className = "backToTop show"
+            myID.className = "button is-info show"
         } else {
-            myID.className = "backToTop hide"
+            myID.className = "button is-info hide"
         }
     };
 
